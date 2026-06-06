@@ -1,0 +1,51 @@
+.DS_Store
+.venv/
+
+# Xcode local state
+DerivedData/
+.derivedData/
+*.xcuserstate
+*.xcscmblueprint
+**/xcuserdata/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# SwiftPM and local build output
+.build/
+.swiftpm/
+build/
+
+# Python caching & environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Node caching
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# Security & Environment Variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# macOS System Files
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Generated Render Assets
+MujocoAR/Resources/render_assets/
+

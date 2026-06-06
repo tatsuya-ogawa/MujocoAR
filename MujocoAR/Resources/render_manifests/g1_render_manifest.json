@@ -1,0 +1,880 @@
+{
+  "version": 1,
+  "parts": [
+    {
+      "key": "visual:0:robot/pelvis",
+      "label": "pelvis",
+      "bodyName": "robot/pelvis",
+      "meshName": "robot/pelvis",
+      "url": "/render_assets/g1/pelvis.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/black"
+    },
+    {
+      "key": "visual:1:robot/pelvis_contour_link",
+      "label": "pelvis_contour_link @ pelvis",
+      "bodyName": "robot/pelvis",
+      "meshName": "robot/pelvis_contour_link",
+      "url": "/render_assets/g1/pelvis_contour_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:2:robot/left_hip_pitch_link",
+      "label": "left_hip_pitch_link",
+      "bodyName": "robot/left_hip_pitch_link",
+      "meshName": "robot/left_hip_pitch_link",
+      "url": "/render_assets/g1/left_hip_pitch_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/black"
+    },
+    {
+      "key": "visual:3:robot/left_hip_roll_link",
+      "label": "left_hip_roll_link",
+      "bodyName": "robot/left_hip_roll_link",
+      "meshName": "robot/left_hip_roll_link",
+      "url": "/render_assets/g1/left_hip_roll_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:4:robot/left_hip_yaw_link",
+      "label": "left_hip_yaw_link",
+      "bodyName": "robot/left_hip_yaw_link",
+      "meshName": "robot/left_hip_yaw_link",
+      "url": "/render_assets/g1/left_hip_yaw_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:5:robot/left_knee_link",
+      "label": "left_knee_link",
+      "bodyName": "robot/left_knee_link",
+      "meshName": "robot/left_knee_link",
+      "url": "/render_assets/g1/left_knee_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:6:robot/left_ankle_pitch_link",
+      "label": "left_ankle_pitch_link",
+      "bodyName": "robot/left_ankle_pitch_link",
+      "meshName": "robot/left_ankle_pitch_link",
+      "url": "/render_assets/g1/left_ankle_pitch_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:7:robot/left_ankle_roll_link",
+      "label": "left_ankle_roll_link",
+      "bodyName": "robot/left_ankle_roll_link",
+      "meshName": "robot/left_ankle_roll_link",
+      "url": "/render_assets/g1/left_ankle_roll_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/black"
+    },
+    {
+      "key": "visual:8:robot/right_hip_pitch_link",
+      "label": "right_hip_pitch_link",
+      "bodyName": "robot/right_hip_pitch_link",
+      "meshName": "robot/right_hip_pitch_link",
+      "url": "/render_assets/g1/right_hip_pitch_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/black"
+    },
+    {
+      "key": "visual:9:robot/right_hip_roll_link",
+      "label": "right_hip_roll_link",
+      "bodyName": "robot/right_hip_roll_link",
+      "meshName": "robot/right_hip_roll_link",
+      "url": "/render_assets/g1/right_hip_roll_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:10:robot/right_hip_yaw_link",
+      "label": "right_hip_yaw_link",
+      "bodyName": "robot/right_hip_yaw_link",
+      "meshName": "robot/right_hip_yaw_link",
+      "url": "/render_assets/g1/right_hip_yaw_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:11:robot/right_knee_link",
+      "label": "right_knee_link",
+      "bodyName": "robot/right_knee_link",
+      "meshName": "robot/right_knee_link",
+      "url": "/render_assets/g1/right_knee_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:12:robot/right_ankle_pitch_link",
+      "label": "right_ankle_pitch_link",
+      "bodyName": "robot/right_ankle_pitch_link",
+      "meshName": "robot/right_ankle_pitch_link",
+      "url": "/render_assets/g1/right_ankle_pitch_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:13:robot/right_ankle_roll_link",
+      "label": "right_ankle_roll_link",
+      "bodyName": "robot/right_ankle_roll_link",
+      "meshName": "robot/right_ankle_roll_link",
+      "url": "/render_assets/g1/right_ankle_roll_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/black"
+    },
+    {
+      "key": "visual:14:robot/waist_yaw_link",
+      "label": "waist_yaw_link",
+      "bodyName": "robot/waist_yaw_link",
+      "meshName": "robot/waist_yaw_link",
+      "url": "/render_assets/g1/waist_yaw_link_rev_1_0.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:15:robot/waist_roll_link",
+      "label": "waist_roll_link",
+      "bodyName": "robot/waist_roll_link",
+      "meshName": "robot/waist_roll_link",
+      "url": "/render_assets/g1/waist_roll_link_rev_1_0.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:16:robot/torso_link",
+      "label": "torso_link",
+      "bodyName": "robot/torso_link",
+      "meshName": "robot/torso_link",
+      "url": "/render_assets/g1/torso_link_rev_1_0.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:17:robot/logo_link",
+      "label": "logo_link @ torso_link",
+      "bodyName": "robot/torso_link",
+      "meshName": "robot/logo_link",
+      "url": "/render_assets/g1/logo_link.glb",
+      "pos": [
+        0.0039635,
+        0,
+        -0.044
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/black"
+    },
+    {
+      "key": "visual:18:robot/head_link",
+      "label": "head_link @ torso_link",
+      "bodyName": "robot/torso_link",
+      "meshName": "robot/head_link",
+      "url": "/render_assets/g1/head_link.glb",
+      "pos": [
+        0.0039635,
+        0,
+        -0.044
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/black"
+    },
+    {
+      "key": "visual:19:robot/left_shoulder_pitch_link",
+      "label": "left_shoulder_pitch_link",
+      "bodyName": "robot/left_shoulder_pitch_link",
+      "meshName": "robot/left_shoulder_pitch_link",
+      "url": "/render_assets/g1/left_shoulder_pitch_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:20:robot/left_shoulder_roll_link",
+      "label": "left_shoulder_roll_link",
+      "bodyName": "robot/left_shoulder_roll_link",
+      "meshName": "robot/left_shoulder_roll_link",
+      "url": "/render_assets/g1/left_shoulder_roll_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:21:robot/left_shoulder_yaw_link",
+      "label": "left_shoulder_yaw_link",
+      "bodyName": "robot/left_shoulder_yaw_link",
+      "meshName": "robot/left_shoulder_yaw_link",
+      "url": "/render_assets/g1/left_shoulder_yaw_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:22:robot/left_elbow_link",
+      "label": "left_elbow_link",
+      "bodyName": "robot/left_elbow_link",
+      "meshName": "robot/left_elbow_link",
+      "url": "/render_assets/g1/left_elbow_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:23:robot/left_wrist_roll_link",
+      "label": "left_wrist_roll_link",
+      "bodyName": "robot/left_wrist_roll_link",
+      "meshName": "robot/left_wrist_roll_link",
+      "url": "/render_assets/g1/left_wrist_roll_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:24:robot/left_wrist_pitch_link",
+      "label": "left_wrist_pitch_link",
+      "bodyName": "robot/left_wrist_pitch_link",
+      "meshName": "robot/left_wrist_pitch_link",
+      "url": "/render_assets/g1/left_wrist_pitch_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:25:robot/left_wrist_yaw_link",
+      "label": "left_wrist_yaw_link",
+      "bodyName": "robot/left_wrist_yaw_link",
+      "meshName": "robot/left_wrist_yaw_link",
+      "url": "/render_assets/g1/left_wrist_yaw_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:26:robot/left_rubber_hand",
+      "label": "left_rubber_hand @ left_wrist_yaw_link",
+      "bodyName": "robot/left_wrist_yaw_link",
+      "meshName": "robot/left_rubber_hand",
+      "url": "/render_assets/g1/left_rubber_hand.glb",
+      "pos": [
+        0.0415,
+        0.003,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/black"
+    },
+    {
+      "key": "visual:27:robot/right_shoulder_pitch_link",
+      "label": "right_shoulder_pitch_link",
+      "bodyName": "robot/right_shoulder_pitch_link",
+      "meshName": "robot/right_shoulder_pitch_link",
+      "url": "/render_assets/g1/right_shoulder_pitch_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:28:robot/right_shoulder_roll_link",
+      "label": "right_shoulder_roll_link",
+      "bodyName": "robot/right_shoulder_roll_link",
+      "meshName": "robot/right_shoulder_roll_link",
+      "url": "/render_assets/g1/right_shoulder_roll_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:29:robot/right_shoulder_yaw_link",
+      "label": "right_shoulder_yaw_link",
+      "bodyName": "robot/right_shoulder_yaw_link",
+      "meshName": "robot/right_shoulder_yaw_link",
+      "url": "/render_assets/g1/right_shoulder_yaw_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:30:robot/right_elbow_link",
+      "label": "right_elbow_link",
+      "bodyName": "robot/right_elbow_link",
+      "meshName": "robot/right_elbow_link",
+      "url": "/render_assets/g1/right_elbow_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:31:robot/right_wrist_roll_link",
+      "label": "right_wrist_roll_link",
+      "bodyName": "robot/right_wrist_roll_link",
+      "meshName": "robot/right_wrist_roll_link",
+      "url": "/render_assets/g1/right_wrist_roll_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:32:robot/right_wrist_pitch_link",
+      "label": "right_wrist_pitch_link",
+      "bodyName": "robot/right_wrist_pitch_link",
+      "meshName": "robot/right_wrist_pitch_link",
+      "url": "/render_assets/g1/right_wrist_pitch_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:33:robot/right_wrist_yaw_link",
+      "label": "right_wrist_yaw_link",
+      "bodyName": "robot/right_wrist_yaw_link",
+      "meshName": "robot/right_wrist_yaw_link",
+      "url": "/render_assets/g1/right_wrist_yaw_link.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "materialName": "robot/silver"
+    },
+    {
+      "key": "visual:34:robot/right_rubber_hand",
+      "label": "right_rubber_hand @ right_wrist_yaw_link",
+      "bodyName": "robot/right_wrist_yaw_link",
+      "meshName": "robot/right_rubber_hand",
+      "url": "/render_assets/g1/right_rubber_hand.glb",
+      "pos": [
+        0.0415,
+        -0.003,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/black"
+    }
+  ]
+}

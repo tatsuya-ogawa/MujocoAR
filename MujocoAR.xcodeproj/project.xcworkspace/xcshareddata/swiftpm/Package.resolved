@@ -1,0 +1,24 @@
+{
+  "originHash" : "1d302c217aa5b90b2740264d4eb913536d57ab0a8c684c079863313a0ab0d098",
+  "pins" : [
+    {
+      "identity" : "mujoco-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tatsuya-ogawa/mujoco-ios.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "6f07a36532a1afccbda47cbd2b6c7cae8f52f62a"
+      }
+    },
+    {
+      "identity" : "recastnavigationkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tatsuya-ogawa/RecastNavigationKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d1f395f002572df8fa6600efab40e33f8ee55526"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,330 @@
+{
+  "version": 1,
+  "parts": [
+    {
+      "key": "visual:0:robot/trunk",
+      "label": "trunk",
+      "bodyName": "robot/trunk",
+      "meshName": "robot/trunk",
+      "url": "/render_assets/go1/trunk.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/dark"
+    },
+    {
+      "key": "visual:1:robot/hip",
+      "label": "hip @ FR_hip",
+      "bodyName": "robot/FR_hip",
+      "meshName": "robot/hip",
+      "url": "/render_assets/go1/hip.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/dark"
+    },
+    {
+      "key": "visual:2:robot/thigh_mirror",
+      "label": "thigh_mirror @ FR_thigh",
+      "bodyName": "robot/FR_thigh",
+      "meshName": "robot/thigh_mirror",
+      "url": "/render_assets/go1/thigh_mirror.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/dark"
+    },
+    {
+      "key": "visual:3:robot/calf",
+      "label": "calf @ FR_calf",
+      "bodyName": "robot/FR_calf",
+      "meshName": "robot/calf",
+      "url": "/render_assets/go1/calf.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/dark"
+    },
+    {
+      "key": "visual:4:robot/hip",
+      "label": "hip @ FL_hip",
+      "bodyName": "robot/FL_hip",
+      "meshName": "robot/hip",
+      "url": "/render_assets/go1/hip.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/dark"
+    },
+    {
+      "key": "visual:5:robot/thigh",
+      "label": "thigh @ FL_thigh",
+      "bodyName": "robot/FL_thigh",
+      "meshName": "robot/thigh",
+      "url": "/render_assets/go1/thigh.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/dark"
+    },
+    {
+      "key": "visual:6:robot/calf",
+      "label": "calf @ FL_calf",
+      "bodyName": "robot/FL_calf",
+      "meshName": "robot/calf",
+      "url": "/render_assets/go1/calf.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/dark"
+    },
+    {
+      "key": "visual:7:robot/hip",
+      "label": "hip @ RR_hip",
+      "bodyName": "robot/RR_hip",
+      "meshName": "robot/hip",
+      "url": "/render_assets/go1/hip.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        -1
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/dark"
+    },
+    {
+      "key": "visual:8:robot/thigh_mirror",
+      "label": "thigh_mirror @ RR_thigh",
+      "bodyName": "robot/RR_thigh",
+      "meshName": "robot/thigh_mirror",
+      "url": "/render_assets/go1/thigh_mirror.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/dark"
+    },
+    {
+      "key": "visual:9:robot/calf",
+      "label": "calf @ RR_calf",
+      "bodyName": "robot/RR_calf",
+      "meshName": "robot/calf",
+      "url": "/render_assets/go1/calf.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/dark"
+    },
+    {
+      "key": "visual:10:robot/hip",
+      "label": "hip @ RL_hip",
+      "bodyName": "robot/RL_hip",
+      "meshName": "robot/hip",
+      "url": "/render_assets/go1/hip.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/dark"
+    },
+    {
+      "key": "visual:11:robot/thigh",
+      "label": "thigh @ RL_thigh",
+      "bodyName": "robot/RL_thigh",
+      "meshName": "robot/thigh",
+      "url": "/render_assets/go1/thigh.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/dark"
+    },
+    {
+      "key": "visual:12:robot/calf",
+      "label": "calf @ RL_calf",
+      "bodyName": "robot/RL_calf",
+      "meshName": "robot/calf",
+      "url": "/render_assets/go1/calf.glb",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0.2,
+        0.2,
+        0.2,
+        1
+      ],
+      "materialName": "robot/dark"
+    }
+  ]
+}
